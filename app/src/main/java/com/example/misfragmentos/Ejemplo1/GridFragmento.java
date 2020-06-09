@@ -1,4 +1,4 @@
-package com.example.misfragmentos;
+package com.example.misfragmentos.Ejemplo1;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import android.widget.GridView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.example.misfragmentos.R;
 
 public class GridFragmento extends Fragment {
     @Nullable
