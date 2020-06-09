@@ -20,9 +20,17 @@ public class EjemplosFragment extends AppCompatActivity {
         startActivity(new Intent(this, ListaCorreo.class));
         //return true;
     }
-
     public void ejemplo2(View view) {
+        startActivity(new Intent(this, ListaCorreo.class));
+        //return true;
     }
+
+
+    public void Ejemplo3(View view) {
+        startActivity(new Intent(this, MainFragmentCorreo.class));
+        //return true;
+    }
+
 
     public static class ListaCorreo extends AppCompatActivity {
         private RecyclerView recyclerView;
